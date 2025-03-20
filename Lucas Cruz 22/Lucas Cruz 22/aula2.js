@@ -36,14 +36,3 @@ function mensagem(){
     }
 
 }
-
-function pronto(){
-    palavra = document.getElementById('teste').value
-    if(palavra == 'super'){
-        document.getElementById('texto').innerHTML += '<div class="especial">'+palavra+'</div>'
-    }else{
-        document.getElementById('texto').innerHTML += '<div>'+palavra+'</div>'
-    }
-    palavra = document.getElementById('teste').value = ''
-
-}

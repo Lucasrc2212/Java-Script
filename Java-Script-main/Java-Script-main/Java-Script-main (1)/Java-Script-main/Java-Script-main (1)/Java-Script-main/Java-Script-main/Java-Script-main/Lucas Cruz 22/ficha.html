@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ficha.js"></script>
+    <link rel="stylesheet" href="ficha.css">
+    <title>ficha</title>
+</head>
+<body>
+    <h1>RPG</h1>
+
+    <div id="ficha">
+        <h2>Monte a ficha do seu personagem</h2>
+
+    nome: <input type="text" id="nome"><br>
+    Iagem: <input id="foto" type="text" placeholder="Coloque o endereço de imagem"><br><br>
+
+
+
+    <b>Você tem 8 pontos para gastar nos atributos!</b><br>
+    força: <input id="forca" type="number" min="0" max="20" value="0"><br>
+    destreza: <input id="destreza" type="number" min="0" max="20" value="0"><br>
+    constituição: <input id="constituicao" type="number" min="0" max="20" value="0"><br>
+    inteligência: <input id="inteligencia" type="number" min="0" max="20" value="0"><br>
+    carisma: <input id="carisma" type="number" min="0" max="20" value="0"><br><br>
+
+    arma:
+    <select name="" id="arma">
+        <option value="desarmado">Desarmado</option>
+        <option value="arco">Arco</option>
+        <option value="bastao">Bastão</option>
+        <option value="espada">Espada</option>
+    </select>
+
+    
+
+    <br><br><button onclick="enviarFicha()">Confirmar ficha</button>
+    </div>
+
+    
+</body>
+</html>
